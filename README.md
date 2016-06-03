@@ -6,7 +6,7 @@ Paper: [He, Kaiming, et al., "Identity Mappings in Deep Residual Networks", arXi
 
 ## Information
 
-We have re-implmented the paper "Identity Mappings in Deep Residual Networks" (http://arxiv.org/abs/1603.05027) in [MatConvNet](https://github.com/vlfeat/matconvnet) . This implementation is based on the lua-code from  [Kaiming He's](https://github.com/KaimingHe/resnet-1k-layers) repository. The implementation has been evaluated only in CIFAR-10 and CIFAR-100.
+We have reimplemented the paper "Identity Mappings in Deep Residual Networks" (http://arxiv.org/abs/1603.05027) in [MatConvNet](https://github.com/vlfeat/matconvnet) . This implementation is based on the lua-code from  [Kaiming He's](https://github.com/KaimingHe/resnet-1k-layers) repository. The implementation has been evaluated only in CIFAR-10 and CIFAR-100.
 
 0. The experiments have been conducted with the beta-20 version of [MatConvNet](https://github.com/vlfeat/matconvnet), which is included in the current project.
 
