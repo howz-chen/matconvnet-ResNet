@@ -41,7 +41,7 @@ We have reimplemented the paper "Identity Mappings in Deep Residual Networks" (h
 
 ## Experiments
 
-The lower error in both experiments is the following table. Plots are coming soon.
+The lowest error in both experiments is the following table. Error plots are following below.
 
 |  Dataset  |  Error |
 |:---------:|:------:|
