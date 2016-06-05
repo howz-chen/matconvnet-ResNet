@@ -181,7 +181,7 @@ data = padarray(data,[4,4],128,'both');
 
 % remove mean
 r = data(:,:,1,set == 1);
-g = data(:,:,3,set == 1);
+g = data(:,:,2,set == 1);
 b = data(:,:,3,set == 1);
 meanCifar = [mean(r(:)), mean(g(:)), mean(b(:))];
 data = bsxfun(@minus, data, reshape(meanCifar,1,1,3));
