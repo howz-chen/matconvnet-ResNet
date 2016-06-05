@@ -3,8 +3,15 @@ function [net, info] = cnn_cifar(varargin)
 %Demonstrates ResNet (with preactivation) on:
 %CIFAR-10 and CIFAR-100 (tested for depth 164)
 
+%Tested in: 2015b and 2016a versions of Matlab
+
 run(fullfile(fileparts(mfilename('fullpath')), ...
   '..', 'matconvnet','matlab', 'vl_setupnn.m')) ;
+
+%the graph building breaks without it for earlier versions
+if verLessThan('matlab','R2015b')
+    set(0,'RecursionLimit',1000);
+end
 
 opts.modelType = 'res' ;
 opts.depth=164;
