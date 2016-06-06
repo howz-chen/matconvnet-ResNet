@@ -14,6 +14,8 @@ We have reimplemented the paper "Identity Mappings in Deep Residual Networks" (h
 
 0. The code has been evaluated on CIFAR-10 and CIFAR-100 for depth 164. 
 
+0. Sample architecture for a resnet created with a `depth` of 38 can be [found here](https://github.com/bazilas/matconvnet-ResNet/blob/master/sample-resnet-depth38.pdf).
+
 ## Usage
 
 0. Compile [MatConvNet](https://github.com/vlfeat/matconvnet) from the *matconvnet* folder.
